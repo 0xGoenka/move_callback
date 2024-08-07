@@ -26,7 +26,11 @@ module bridge::bridge {
         owner: tx_context::sender(ctx),
       }
     );
-  }
+    } 
+
+    public fun get_owner_cap_address(ownercap: &OwnerCap): address {
+        ownercap.owner
+    }
 
 
     public fun generate(

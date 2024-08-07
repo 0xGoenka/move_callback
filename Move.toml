@@ -1,8 +1,9 @@
 [package]
 name = "move_callback"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
-# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+authors = ["Esteban LECLET (estebanleclet@gmail.com)"]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+license = "MIT"           # e.g., "MIT", "GPL", "Apache 2.0"
+# published-at = "0x41cbd7d4d141c5971df20d23c401c059a5718f1fe820a64354fe26f188b3d397"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
@@ -21,7 +22,7 @@ bridge = { git = "https://github.com/0xGoenka/bridge_move", subdir = "", rev = "
 
 [addresses]
 move_callback = "0x0"
-bridge = "0xc5af23015803a9015f82cb836245f4b13cdf2834426b534a0521e8bda4fc4093"
+bridge = "0x501b96f4517f7655a4f93a8504c717f2bfef2ef255c7eb14aa9da623f6989509"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
