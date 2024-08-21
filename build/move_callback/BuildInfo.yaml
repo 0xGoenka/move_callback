@@ -2,11 +2,11 @@
 compiled_package_info:
   package_name: move_callback
   address_alias_instantiation:
-    bridge: 501b96f4517f7655a4f93a8504c717f2bfef2ef255c7eb14aa9da623f6989509
+    jarjar_ai_oracle: aa448583fb40bc6a25e2ca7c817d5e0f7c3ce95175d369289c42bc1d86caab68
     move_callback: "0000000000000000000000000000000000000000000000000000000000000000"
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     sui: "0000000000000000000000000000000000000000000000000000000000000002"
-  source_digest: A1121315111AEAB5B4EDD36F6B76FD578DF24430D33B20D49F3DF22A1C68D931
+  source_digest: 30F5C8C438F9C6487E100931BFE1093D336FC825D8840F8686B0A20285C59BF6
   build_flags:
     dev_mode: false
     test_mode: false
@@ -29,4 +29,4 @@ compiled_package_info:
 dependencies:
   - MoveStdlib
   - Sui
-  - bridge
+  - jarjar_ai_oracle

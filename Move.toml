@@ -7,7 +7,7 @@ license = "MIT"           # e.g., "MIT", "GPL", "Apache 2.0"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
-bridge = { git = "https://github.com/0xGoenka/bridge_move", subdir = "", rev = "main" }
+jarjar_ai_oracle = { git = "https://github.com/0xGoenka/bridge_move", subdir = "", rev = "main" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -22,8 +22,7 @@ bridge = { git = "https://github.com/0xGoenka/bridge_move", subdir = "", rev = "
 
 [addresses]
 move_callback = "0x0"
-bridge = "0x501b96f4517f7655a4f93a8504c717f2bfef2ef255c7eb14aa9da623f6989509"
-
+jarjar_ai_oracle = "0xaa448583fb40bc6a25e2ca7c817d5e0f7c3ce95175d369289c42bc1d86caab68"
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
 # alice = "0xA11CE"

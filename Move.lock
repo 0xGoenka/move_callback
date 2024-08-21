@@ -2,11 +2,11 @@
 
 [move]
 version = 2
-manifest_digest = "313184711F65338A9F439D9CC0C4345D63A3088F078770A65F70E26324387FCC"
+manifest_digest = "8B1F4D48A801EEBCF092D168CEACF3BA37DCDA0AB230972EF1CEF601CC434F33"
 deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
-  { name = "bridge" },
+  { name = "jarjar_ai_oracle" },
 ]
 
 [[move.package]]
@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [[move.package]]
-name = "bridge"
+name = "jarjar_ai_oracle"
 source = { git = "https://github.com/0xGoenka/bridge_move", rev = "main", subdir = "" }
 
 dependencies = [
@@ -38,6 +38,6 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0xd4a7c4dc83bad0bcb955a3d1d1948209370b9ec53bc0c607414b493ac97dc573"
-latest-published-id = "0xd4a7c4dc83bad0bcb955a3d1d1948209370b9ec53bc0c607414b493ac97dc573"
+original-published-id = "0xc1d70d1e0aec4d02689aa66b87cec51c289fa3eb3964dc58f6ebc2d1ceea66b2"
+latest-published-id = "0xc1d70d1e0aec4d02689aa66b87cec51c289fa3eb3964dc58f6ebc2d1ceea66b2"
 published-version = "1"
